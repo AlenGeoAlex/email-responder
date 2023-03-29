@@ -1,0 +1,6 @@
+name = "email-responder"
+main = "src/index.ts"
+compatibility_date = "2023-03-29"
+
+[vars]
+GMAIL_PASSWORD = ""
