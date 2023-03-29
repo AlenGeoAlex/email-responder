@@ -19,6 +19,7 @@ ${env.GMAIL_REPLY_NAME}
 
 	try{
 		message.forward(env.GMAIL_FORWARD_TO);
+		console.log(`email has been forwarded to ${env.GMAIL_FORWARD_TO}`);
 	}catch(err){
 		console.log("Failed to forward the email")
 		emailReply = `Hey ${message.from}!,

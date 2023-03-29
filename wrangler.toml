@@ -3,6 +3,7 @@ main = "src/index.ts"
 compatibility_date = "2023-03-29"
 
 [vars]
+
 GMAIL_FORWARD_TO = "xxxxxxx@gmail.com"
 GMAIL_REPLY_EMAIL = "no-reply@yourdomain.com"
 GMAIL_REPLY_NAME = "Your Name"
